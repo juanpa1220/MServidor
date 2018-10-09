@@ -16,7 +16,7 @@ Memoria::Memoria(size_t tamano) {
  * @return std::string
  */
 std::string Memoria::asignarID() {
-    return "S-" + to_string(posicionFinal);
+    return "MPointer-" + to_string(posicionFinal);
 }
 
 // Reserva de memoria para cada tipo de dato
